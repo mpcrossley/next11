@@ -1,4 +1,3 @@
-# download  file from url
 import urllib.request
 import os
 import zipfile
@@ -18,7 +17,6 @@ if not os.path.exists('static/google_transit.zip'):
     os.chdir('static') # change directory to
     unzip = zipfile.ZipFile('google_transit.zip')
     unzip.extractall()
-
 
     # create database from csv files
     # list of all GTFS static text files
