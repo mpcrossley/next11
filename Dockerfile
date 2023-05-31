@@ -1,4 +1,3 @@
-# basic docker image for running the app
 version: '3'
 services:
   app:
